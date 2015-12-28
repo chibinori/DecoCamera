@@ -30,6 +30,8 @@
 		9AC8CD691C24EC9D00FCC2A8 /* frame_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8CD581C24EC9D00FCC2A8 /* frame_14.png */; };
 		9AC8CD6A1C24EC9D00FCC2A8 /* frame_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8CD591C24EC9D00FCC2A8 /* frame_15.png */; };
 		9AC8CD6B1C24EC9D00FCC2A8 /* frame_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8CD5A1C24EC9D00FCC2A8 /* frame_16.png */; };
+		9AC8CD6E1C25255D00FCC2A8 /* FrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8CD6D1C25255D00FCC2A8 /* FrameViewController.m */; };
+		9AC8CD741C2525F300FCC2A8 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8CD731C2525F300FCC2A8 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,10 @@
 		9AC8CD581C24EC9D00FCC2A8 /* frame_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_14.png; sourceTree = "<group>"; };
 		9AC8CD591C24EC9D00FCC2A8 /* frame_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_15.png; sourceTree = "<group>"; };
 		9AC8CD5A1C24EC9D00FCC2A8 /* frame_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_16.png; sourceTree = "<group>"; };
+		9AC8CD6C1C25255D00FCC2A8 /* FrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameViewController.h; sourceTree = "<group>"; };
+		9AC8CD6D1C25255D00FCC2A8 /* FrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameViewController.m; sourceTree = "<group>"; };
+		9AC8CD721C2525F300FCC2A8 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		9AC8CD731C2525F300FCC2A8 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 				9AC8CD401C24EC4000FCC2A8 /* LaunchScreen.storyboard */,
 				9AC8CD431C24EC4000FCC2A8 /* Info.plist */,
 				9AC8CD321C24EC4000FCC2A8 /* Supporting Files */,
+				9AC8CD6C1C25255D00FCC2A8 /* FrameViewController.h */,
+				9AC8CD6D1C25255D00FCC2A8 /* FrameViewController.m */,
+				9AC8CD721C2525F300FCC2A8 /* ImageViewController.h */,
+				9AC8CD731C2525F300FCC2A8 /* ImageViewController.m */,
 			);
 			path = DecoCamera;
 			sourceTree = "<group>";
@@ -225,8 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC8CD741C2525F300FCC2A8 /* ImageViewController.m in Sources */,
 				9AC8CD3A1C24EC4000FCC2A8 /* ViewController.m in Sources */,
 				9AC8CD371C24EC4000FCC2A8 /* AppDelegate.m in Sources */,
+				9AC8CD6E1C25255D00FCC2A8 /* FrameViewController.m in Sources */,
 				9AC8CD341C24EC4000FCC2A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DecoCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.DecoCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DecoCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.DecoCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +388,7 @@
 				9AC8CD481C24EC4000FCC2A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
